@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "plepper79-kernelopt_jd424"
+name = "plepper79-cache_hit_attribution_length_profile"
 version = "0.1.0"
 description = "按段落统计AI 芯片算子优化工程师·缓存命中率的归因相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://plepper79.github.io"
-Repository = "https://github.com/plepper79/kernelopt_jd424"
-Issues = "https://github.com/plepper79/kernelopt_jd424/issues"
+Repository = "https://github.com/plepper79/cache_hit_attribution_length_profile"
+Issues = "https://github.com/plepper79/cache_hit_attribution_length_profile/issues"
 
 [project.scripts]
-kernelopt_jd424 = "kernelopt_jd424:main"
+cache_hit_attribution_length_profile = "cache_hit_attribution_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["kernelopt_jd424"]
+py-modules = ["cache_hit_attribution_length_profile"]
